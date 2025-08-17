@@ -1,0 +1,21 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  color: #333;
+  width: 800px;
+  margin: 0 auto;
+  img {
+    width: 40%;
+    max-width: 200px;
+  }
+  button {
+    padding: 10px 30px;
+    background-color: #e0c097;
+    border: none;
+    border-radius: 10px;
+  }
+}
