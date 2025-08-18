@@ -5,10 +5,14 @@
   font-family: sans-serif;
 }
 body {
-  background-color: #faf3e0;
+  background-color: #000;
 }
 
 .app {
   color: #333;
   text-align: center;
+}
+
+.hidden {
+  display: none;
 }

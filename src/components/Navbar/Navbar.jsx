@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.scss";
 import { Link } from "react-router-dom";
+import { AiOutlineMenu } from "react-icons/ai";
+import { GrClose } from "react-icons/gr";
 
 export default function Navbar() {
+  const [active, setActive] = useState(false);
+
   return (
     <nav>
       <div className="navbar">
@@ -33,6 +37,26 @@ export default function Navbar() {
             GitHub
           </a>
           <a href="#">Buy us a coffee</a>
+        </div>
+        <div className="navbar-icon" onClick={() => setActive(!active)}>
+          {active ? (
+            <GrClose color="#fff" size={30} />
+          ) : (
+            <AiOutlineMenu color="#fff" size={30} />
+          )}
+        </div>
+        <div className={active ? "navbar-menu" : "hidden"}>
+          <div className="navbar-menu-links">
+            <a href="#">Home</a>
+            <a href="#">Docs</a>
+            <a
+              href="https://github.com/Hafis-bv?tab=repositories"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a href="#">Buy us a coffee</a>
+          </div>
         </div>
       </div>
     </nav>
