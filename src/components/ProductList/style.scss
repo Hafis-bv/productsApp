@@ -1,0 +1,12 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #faf3e0;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  gap: 12px;
+  border-radius: 15px;
+  padding: 15px;
+}

@@ -9,7 +9,8 @@ nav {
   padding: 5px 70px;
 
   img {
-    width: 60px;
+    width: 60px !important;
+    height: 60px !important;
     border-radius: 10px;
   }
   .navbar-text {
