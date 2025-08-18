@@ -1,7 +1,10 @@
-import React from "react";
+import { ProductList } from "./components/ProductList/ProductList";
 
-function App() {
-  return <div></div>;
+export default function App() {
+  return (
+    <>
+      <h1 className="app">Products</h1>
+      <ProductList />
+    </>
+  );
 }
-
-export default App;

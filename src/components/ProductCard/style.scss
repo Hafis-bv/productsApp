@@ -1,0 +1,18 @@
+.product-card {
+  background-color: #fefefe;
+  color: #333;
+  width: 200px;
+  border: solid 2px #e0c097;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 40%;
+    object-fit: contain;
+    height: 100px;
+  }
+}
