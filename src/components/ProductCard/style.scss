@@ -1,14 +1,15 @@
 .product-card {
-  background-color: #191919;
+  background-color: #1e1e1e;
   color: #fff;
   width: 400px;
-  border: solid 2px #333;
+  border: solid 2px #2e2e2e;
   border-radius: 10px;
   padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
 
   img {
     width: 40%;

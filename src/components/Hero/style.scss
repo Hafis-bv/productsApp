@@ -29,7 +29,7 @@
       font-weight: 400;
     }
 
-    button {
+    .btn {
       padding: 12px 24px;
       border: none;
       background-color: #fff;
@@ -37,6 +37,8 @@
       font-weight: 500;
       font-size: 17px;
       cursor: pointer;
+      text-decoration: none;
+      color: black;
     }
   }
 }
