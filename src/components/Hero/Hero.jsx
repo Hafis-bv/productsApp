@@ -1,4 +1,5 @@
 import "./style.scss";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -12,7 +13,9 @@ export const Hero = () => {
           everyday essentials to refined details, each item is made to give you
           a polished look that never goes out of style.
         </p>
-        <button>Learn more</button>
+        <Link className="btn" to={`/products`}>
+          Learn more
+        </Link>
       </div>
     </div>
   );

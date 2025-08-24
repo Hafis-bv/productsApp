@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./style.scss";
 import { Link } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -6,6 +6,10 @@ import { GrClose } from "react-icons/gr";
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => setActive(false));
+  });
 
   return (
     <nav>
